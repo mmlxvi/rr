@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*work begins here */
+
+.italic {
+  font-style:italic;
+}
+
+ {
+  outline:1px solid black;
+}
+
+html {
+  background-color:#A6CCFF;
+<<<<<<< HEAD
+
+=======
+  font-style:Adobe Text Pro;
+>>>>>>> parent of db51dd6... add password protect
+}
+
+#fixedTop {
+  position:fixed;
+}
+
+.navBar {
+  width:1000px;
+  height:50px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.main {
+  width:100%;
+  min-height:900px;
+
+
+}
+
+.banner {
+  width:100%;
+  height:190px;
+
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  line-height:200%;
+  /* background-image:url("images/Cedarburg_Beech_Forest.jpg");
+  background-size:1200px 500px; */
+
+}
+
+.banner img {
+  max-width:975px;
+  margin-top:50px;
+}
+
+#hiddenButton {
+  display:none;
+}
+
+.buttons {
+  width:1000px;
+  height:50px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.btns {
+  width:247px;
+  height:50px;
+
+  display:inline-block;
+  background-color:silver;
+  color:dimgray;
+  text-align:center;
+  line-height:3em;
+}
+
+.btns img {
+  height:80%;
+  margin-top:6px;
+}
+
+#bOne {
+  background-color:whitesmoke;
+}
+
+
+
+.pages {
+  width:1000px;
+  height:640px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:1.5em;
+  background-color:#f3f3f3;
+  display:none;
+}
+
+.pages p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom:20px;
+  line-height:1em;
+font-family:serif;
+}
+
+.specialP {
+  margin-top:0px;
+}
+
+.pWrapper {
+  border:30px #f3f3f3 solid;
+}
+
+#welcomeImage {
+  width:40%;
+  float:right;
+  margin:30px 30px 0px 30px;
+}
+
+#welcomePage {
+  display:block;
+}
+
+#aboutImage {
+  width:40%;
+  float:left;
+  margin:30px 30px 0px 30px;
+  border-bottom:5px solid #f3f3f3;
+}
+
+#booksPage {
+height:1595px;
+}
+
+#contactPage {
+
+}
+
+
+
+#contactText img {
+  width:90%;
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:120px;
+}
+
+#contactImage img {
+  width:40%;
+  margin-left:300px;
+  margin-right:300px;
+  margin-top:60px;
+  border:3px solid #656565;
+}
+
+
+.bookCase {
+display:inline-block;
+}
+
+.cases {
+  width:466px;
+  height:560px;
+   outline:1px solid black;
+}
+
+.pWrapper2 {
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:20px;
+}
+
+.bookHolder {
+  display:inline-block;
+  margin-top:0px;
+  margin-left:75px;
+  margin-right:75px;
+  margin-bottom:5px;
+  width:850px;
+  padding-bottom:10px;
+  border-top:20px solid #f3f3f3;
+  border-bottom:1px solid silver;
+
+}
+
+.bookDiv {
+  width:1000px;
+
+ /* outline:1px blue solid; */
+  /* margin: 0 auto; */
+
+}
+
+.bookJacket {
+  /* outline:1px green solid; */
+  height:256px;
+  width:150px;
+  display:inline-block;
+  /* margin:20px; */
+
+}
+
+.coverImage {
+  background-color:silver;
+  text-align:center;
+}
+
+.coverImage img {
+  width:95%;
+  padding-top:3px;
+  /* outline:1px solid orange; */
+  height:215px;
+}
+
+.amznBtn img {
+  width:100%;
+  margin-top:4px;
+  margin-bottom:20px;
+
+}
+.bookDescription {
+ /* outline:1px black solid; */
+  height:256px;
+  width:700px;
+  float:right;
+}
+
+.bookTitle {
+  font-style:italic;
+}
+
+#firstBook {
+  margin-top:20px;
+  margin-bottom:10px;
+}
