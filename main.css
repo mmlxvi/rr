@@ -61,11 +61,11 @@ table {
 
 html {
   background-color:#A6CCFF;
-<<<<<<< HEAD
+
 
 =======
   font-style:Adobe Text Pro;
->>>>>>> parent of db51dd6... add password protect
+
 }
 
 #fixedTop {
@@ -121,7 +121,7 @@ html {
   height:50px;
 
   display:inline-block;
-  background-color:silver;
+  background-color:#c2c2c2;
   color:dimgray;
   text-align:center;
   line-height:3em;
@@ -232,7 +232,7 @@ display:inline-block;
   width:850px;
   padding-bottom:10px;
   border-top:20px solid #f3f3f3;
-  border-bottom:1px solid silver;
+  border-bottom:1px solid #c2c2c2;
 
 }
 
@@ -254,7 +254,7 @@ display:inline-block;
 }
 
 .coverImage {
-  background-color:silver;
+  background-color:#c2c2c2;
   text-align:center;
 }
 
